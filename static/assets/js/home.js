@@ -1,4 +1,4 @@
-function loadScript(src, callback) {
+I'll ofunction loadScript(src, callback) {
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = src;
@@ -37,14 +37,14 @@ setInterval(updateClock, 1000);
 
 
 const options = [
-    "Right-Click to access more features",
+    "GAMES ARE REALLY COOL",
     "Set a custom background in settings.",
     "Tab Cloaking is highly recommended",
-    "About:Blank Cloak is highly recommended",
-    "Finally, an actual site unblocker that works fast!",
+    "Arcade is highly recommended",
+    "Finally, an actual game site that works fast!",
     "It is not recommended to share this link with anyone.",
-    "discord.gg/unblocking for more",
-    "© Copyright 2024 Doge Network. All Rights Reserved.",
+    "Arcade is older games",
+    "This is made to let kids have fun.",
     "Customize Doge by going to Settings > Themes",
 ];
 

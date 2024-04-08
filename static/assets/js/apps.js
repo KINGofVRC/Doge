@@ -50,7 +50,7 @@ function addApp(name, imageUrl, onClickFunction, width, height) {
   appContainer.appendChild(linkElement);
 }
 
-var apps = {
+var arcade = {
   Google: { imageUrl: "/assets/img/google-icon.webp", onClick: google },
   ChatGPT: { imageUrl: "/assets/img/gpt.webp", onClick: gpt },
   'Gemini': { imageUrl: "/assets/img/gemini.webp", onClick: gemini },
@@ -79,8 +79,8 @@ var apps = {
 };
 
 
-for (var appName in apps) {
-  if (apps.hasOwnProperty(appName)) {
+for (var appName in arcade) {
+  if (arcade.hasOwnProperty(appName)) {
     try {
       const { imageUrl, onClick, width, height } = apps[appName];
       addApp(appName, imageUrl, onClick, width, height);
